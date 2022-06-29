@@ -1,0 +1,135 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white; /*#61122f;*/
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  margin: 0px;
+  background-color: darkgray; /*#f6b319;*/
+  border-radius: 0;
+  border: 0;
+}
+
+.icon-bar{
+  font-weight: bold;
+}
+
+#logo-img {
+  background: url('../images/restaurant-logo_large.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: sans-serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+.navbar-brand h1 { /* Star-K */
+  color: black;
+}
+
+#nav-list {
+
+  margin: 0 ;
+}
+
+.row {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  background-color: lightgray;
+
+}
+
+#latte a {
+  margin: 0px;
+  border: 0px;
+  color: black;
+
+}
+
+#latte, #espresso, #cappuccino {
+  color:  black;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+
+.text-center{
+  margin: 0px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  color: black;
+  background-color: white;
+  font-size: 2em;
+}
+
+#ourmenu {
+  margin: 0px;
+  text-align: center;
+  background-color: white;
+}
+
+
+#outmenuframe{
+  font-size: 1.2em;
+
+}
+
+#menutop #outmenuframe{
+  color: black;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: lightgray;  
+
+}
+#description {
+  color: black;
+  font-size: 1.2em;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: lightgrey;
+}
+
+#menutop {
+  font-size: 1.6em;
+  font-weight: bolder;
+  background-color: lightgray;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+
+}
